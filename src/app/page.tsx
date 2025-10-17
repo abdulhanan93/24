@@ -26,7 +26,7 @@ export default function Home() {
         <h2 className="text-3xl font-semibold mb-6 text-center">Our Teacher</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
           {["Dr. Ali"].map((name,v) => (
-            <div  className="bg-white p-4 rounded shadow text-center">
+ <div  className="bg-white p-4 rounded shadow text-center">
         
               <img src={`/dr ali.jpg`} alt={name} className="w-32 h-32 round-full mx-auto mb-5" />
               <h3 className="text-xl font-bold">{name}</h3>
